@@ -9,6 +9,7 @@ public class Main {
         notebooks.add(new Notebook(16, 1, "MacOS", "black"));
         notebooks.add(new Notebook(32, 2, "Linux", "grey"));
         notebooks.add(new Notebook(8, 512, "Windows", "white"));
+        notebooks.add(new Notebook(32, 2, "MacOS", "black"));
 
         ArrayList<Notebook> filterNotebooks=FilterNotebook.FilterNotebooks(notebooks);
         FilterNotebook.PrintNotebooks(filterNotebooks);
